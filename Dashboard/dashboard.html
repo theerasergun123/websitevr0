@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="row">
+<nav class="navbar navbar-inverse col-md-12">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="../Home/home.html">Kawer.tn</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="home"><a href="../Home/home.html">Home</a></li>
+        <li class=" active dashboard"><a  href="dashboard.html">Dashboard</a></li>
+     </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+<div class="contaiiner-fluid w3-container ">
+  <div class="row">
+    <div class="col-md-12 heading"> <H1 class="heading-text"> <span class="w3-center w3-animate-top"> Hi again! Welcome To Your Dashboard. Here You Can Edit</span> <span class="w3-center w3-animate-opacity"> Your Profile, See Your Current And Played Matches And </span> <span class="w3-center w3-animate-bottom"> Find Games To Play. </span></H1></div>
+  <div class="col-md-4 col-sm-12 profile-container">
+    <div class="profile-img-container">
+        <img class="profile-img img-circle" src="res/ball.png" alt="">
+        
+    </div>
+    <div class="container">
+      
+    <div class="profileInfo">
+      <label >State:</label>
+      <label for="state" class="trueLeader">Player</label>
+      <hr class=" line">
+      <label >First Name:</label>
+      <label for="firstName" class="trueName"></label>
+      <hr class="line"> 
+      <label >Last Name:</label>
+      <label for="LastName" class="trueLastName"></label>
+      <hr class="line">
+      <label >Age:</label>
+      <label for="age" class="trueAge"></label>
+      <hr class="line">
+      <label >Phone Number:</label>
+      <label for="number" class="trueNumber"></label>
+      <hr class=" line">
+      <label >Email Address:</label>
+      <label for="email" class="trueEmail"></label>
+      <hr class=" line">
+      <div class="forTeamLeaders"> <label ></label>
+      <label for="team" class="trueTeam"></label> </div>
+
+    </div>
+      
+    </div>
+    
+  </div>
+
+<div class="col-md-8 col-sm-12 match-recap">
+  <h2>Match Summary</h2>
+  <div class="current-matches"> 
+    <h2>Current Matches</h2> 
+    <div class="alert alert-info">
+      <strong>Sorry!</strong> You Are Not Playing Any Match.</div>
+       <button class="btn-primary play-match">Play A Match</button>
+     </div>
+     <div class="current-matches"> 
+        <h2>Played Matches</h2> 
+        <div class="alert alert-info">
+          <strong>Sorry!</strong> You Didn't Play Any Match.</div>
+           
+         </div>
+    
+    </div>
+
+
+
+</div>
+  
+
+
+</body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</html>
